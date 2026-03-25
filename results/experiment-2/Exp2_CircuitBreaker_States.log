@@ -1,0 +1,30 @@
+===== [STATE: CLOSED] =====
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+===== [STATE: OPEN] =====
+io.github.resilience4j.circuitbreaker.CallNotPermittedException: CircuitBreaker 'visits' is OPEN and does not permit further calls
+    at io.github.resilience4j.circuitbreaker.CallNotPermittedException.createCallNotPermittedException(CallNotPermittedException.java:48)
+    at io.github.resilience4j.reactor.circuitbreaker.operator.MonoCircuitBreaker.subscribe(MonoCircuitBreaker.java:40)
+io.github.resilience4j.circuitbreaker.CallNotPermittedException: CircuitBreaker 'visits' is OPEN and does not permit further calls
+    at io.github.resilience4j.circuitbreaker.CallNotPermittedException.createCallNotPermittedException(CallNotPermittedException.java:48)
+
+===== [STATE: HALF_OPEN] =====
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+===== [STATE: OPEN] =====
+io.github.resilience4j.circuitbreaker.CallNotPermittedException: CircuitBreaker 'visits' is OPEN and does not permit further calls
+    at io.github.resilience4j.circuitbreaker.CallNotPermittedException.createCallNotPermittedException(CallNotPermittedException.java:48)
+
+===== [STATE: HALF_OPEN] =====
+2026-03-25 09:07:30.123 DEBUG --- [ctor-http-nio-2] i.g.r.c.i.CircuitBreakerStateMachine   : CircuitBreaker 'visits' changed state from OPEN to HALF_OPEN
+2026-03-25 09:07:30.450 DEBUG --- [ctor-http-nio-2] i.g.r.c.i.CircuitBreakerStateMachine   : CircuitBreaker 'visits' recorded a successful call. 
+
+===== [STATE: CLOSED] =====
+2026-03-25 09:07:30.600 DEBUG --- [ctor-http-nio-2] i.g.r.c.i.CircuitBreakerStateMachine   : CircuitBreaker 'visits' changed state from HALF_OPEN to CLOSED
