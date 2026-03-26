@@ -8,10 +8,6 @@ spring:
       server:
         webflux:
           default-filters:
-            - name: CircuitBreaker
-              args:
-                name: defaultCircuitBreaker
-                fallbackUri: forward:/fallback
             - name: Retry
               args:
                 retries: 1
@@ -30,6 +26,7 @@ spring:
                 - Path=/api/visit/**
               filters:
                 - StripPrefix=2
+                - CircuitBreaker=name=visits,fallbackUri=forward:/fallback
             - id: customers-service
               uri: lb://customers-service
               predicates:
@@ -42,7 +39,30 @@ spring:
                 - Path=/api/genai/**
               filters:
                 - StripPrefix=2
-                - CircuitBreaker=name=genaiCircuitBreaker,fallbackUri=/fallback
+                - CircuitBreaker=name=genaiCircuitBreaker,fallbackUri=forward:/fallback
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      visits:
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 5
+        permittedNumberOfCallsInHalfOpenState: 3
+        waitDurationInOpenState: 10s
+        failureRateThreshold: 50
+        slowCallRateThreshold: 50
+        slowCallDurationThreshold: 2s
+      genaiCircuitBreaker: 
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 5
+        permittedNumberOfCallsInHalfOpenState: 3
+        waitDurationInOpenState: 10s
+        failureRateThreshold: 50
+
+logging:
+  level:
+    io.github.resilience4j.circuitbreaker: DEBUG
+    org.springframework.cloud.circuitbreaker: DEBUG
 
 ---
 spring:

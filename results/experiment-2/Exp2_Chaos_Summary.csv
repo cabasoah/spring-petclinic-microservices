@@ -1,0 +1,4 @@
+Phase,Throughput_req_sec,p99_latency_ms,Error_percent
+Pre-chaos (10s),2020.30,401,49.86
+During outage (35s),1461.60,1901,50.16
+Recovery (20s),1466.05,1735,49.99
