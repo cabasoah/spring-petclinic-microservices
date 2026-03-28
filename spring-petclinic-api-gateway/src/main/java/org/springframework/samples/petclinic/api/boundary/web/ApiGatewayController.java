@@ -15,6 +15,9 @@
  */
 package org.springframework.samples.petclinic.api.boundary.web;
 
+import java.util.List;
+import java.util.function.Function;
+
 import org.springframework.cloud.client.circuitbreaker.ReactiveCircuitBreaker;
 import org.springframework.cloud.client.circuitbreaker.ReactiveCircuitBreakerFactory;
 import org.springframework.samples.petclinic.api.application.CustomersServiceClient;
@@ -26,9 +29,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
-
-import java.util.List;
-import java.util.function.Function;
 
 /**
  * @author Maciej Szarlinski
@@ -64,7 +64,6 @@ public class ApiGatewayController {
             );
 
     }
-
     private Function<Visits, OwnerDetails> addVisitsToOwner(OwnerDetails owner) {
         return visits -> {
             owner.pets()

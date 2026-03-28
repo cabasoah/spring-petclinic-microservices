@@ -93,5 +93,4 @@ class ApiGatewayControllerTest {
             .jsonPath("$.pets[0].name").isEqualTo("Garfield")
             .jsonPath("$.pets[0].visits").isEmpty();
     }
-
 }

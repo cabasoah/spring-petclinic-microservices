@@ -48,6 +48,9 @@ public class Visit {
     @Column(name = "pet_id")
     private int petId;
 
+    @Column(name = "status")
+    private String status = "ACTIVE";
+
     public Integer getId() {
         return this.id;
     }
@@ -62,6 +65,10 @@ public class Visit {
 
     public int getPetId() {
         return this.petId;
+    }
+
+    public String getStatus() {
+        return this.status;
     }
 
     public void setId(Integer id) {
@@ -80,12 +87,17 @@ public class Visit {
         this.petId = petId;
     }
 
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
 
     public static final class VisitBuilder {
         private Integer id;
         private Date date;
         private @Size(max = 8192) String description;
         private int petId;
+        private String status;
 
         private VisitBuilder() {
         }
@@ -114,12 +126,20 @@ public class Visit {
             return this;
         }
 
+        public VisitBuilder status(String status) {
+            this.status = status;
+            return this;
+        }
+
         public Visit build() {
             Visit visit = new Visit();
             visit.setId(id);
             visit.setDate(date);
             visit.setDescription(description);
             visit.setPetId(petId);
+            if (status != null) {
+                visit.setStatus(status);
+            }
             return visit;
         }
     }

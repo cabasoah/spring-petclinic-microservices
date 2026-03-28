@@ -37,7 +37,7 @@
           <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
         </CookieManager>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="01 - HTTP GET Request: Veterinarians Page">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="01 - HTTP GET Request: Veterinarians Page" enabled="true">
           <stringProp name="TestPlan.comments">Homepage  - Veterinarians</stringProp>
           <stringProp name="HTTPSampler.path">/api/vet/vets</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -49,7 +49,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02 - HTTP GET Request: Search Single Owner">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02 - HTTP GET Request: Search Single Owner" enabled="true">
           <stringProp name="TestPlan.comments">Owner search </stringProp>
           <stringProp name="HTTPSampler.path">/api/gateway/owners/1</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -61,7 +61,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="03 - HTTP POST Request: Visits">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="03 - HTTP POST Request: Visits" enabled="true">
           <stringProp name="TestPlan.comments">Visits</stringProp>
           <stringProp name="HTTPSampler.path">/api/visit/owners/1/pets/1/visits</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -73,7 +73,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="04: HTTP  GET Request: Owners">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="04: HTTP  GET Request: Owners" enabled="true">
           <stringProp name="TestPlan.comments">Owners</stringProp>
           <stringProp name="HTTPSampler.path">/api/gateway/owners/1</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -85,7 +85,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report">
+        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>

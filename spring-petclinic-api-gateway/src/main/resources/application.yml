@@ -3,6 +3,11 @@ spring:
     name: api-gateway
   config:
     import: optional:configserver:${CONFIG_SERVER_URL:http://localhost:8888/}
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USERNAME:guest}
+    password: ${RABBITMQ_PASSWORD:guest}
   cloud:
     gateway:
       server:
@@ -24,6 +29,7 @@ spring:
               uri: lb://visits-service
               predicates:
                 - Path=/api/visit/**
+                - Method=GET
               filters:
                 - StripPrefix=2
                 - CircuitBreaker=name=visits,fallbackUri=forward:/fallback
