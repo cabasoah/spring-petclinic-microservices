@@ -16,9 +16,12 @@
 package org.springframework.samples.petclinic.visits.model;
 
 import java.util.Collection;
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 /**
  * Repository class for <code>Visit</code> domain objects All method names are compliant with Spring Data naming conventions so this interface can easily be extended for Spring
@@ -35,4 +38,18 @@ public interface VisitRepository extends JpaRepository<Visit, Integer> {
     List<Visit> findByPetId(int petId);
 
     List<Visit> findByPetIdIn(Collection<Integer> petIds);
+
+    @Query("""
+        select v.status as status, count(v) as total
+        from Visit v
+        where v.createdAt >= :cutoff
+        group by v.status
+        order by v.status
+        """)
+    List<VisitStatusCount> countStatusesSince(@Param("cutoff") Date cutoff);
+
+    interface VisitStatusCount {
+        String getStatus();
+        long getTotal();
+    }
 }

@@ -63,6 +63,18 @@ services:
       timeout: 10s
       retries: 3
 
+  mock-billing-service:
+    build: ./mock-billing-service
+    container_name: mock-billing-service
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_USERNAME=guest
+      - RABBITMQ_PASSWORD=guest
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+
   visits-service:
     image: springcommunity/spring-petclinic-visits-service
     container_name: visits-service

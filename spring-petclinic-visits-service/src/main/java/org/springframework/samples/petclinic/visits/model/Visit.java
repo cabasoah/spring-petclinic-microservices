@@ -51,6 +51,10 @@ public class Visit {
     @Column(name = "status")
     private String status = "ACTIVE";
 
+    @Column(name = "created_at", insertable = false, updatable = false)
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date createdAt;
+
     public Integer getId() {
         return this.id;
     }
@@ -69,6 +73,10 @@ public class Visit {
 
     public String getStatus() {
         return this.status;
+    }
+
+    public Date getCreatedAt() {
+        return this.createdAt;
     }
 
     public void setId(Integer id) {
@@ -91,6 +99,10 @@ public class Visit {
         this.status = status;
     }
 
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
 
     public static final class VisitBuilder {
         private Integer id;
@@ -98,6 +110,7 @@ public class Visit {
         private @Size(max = 8192) String description;
         private int petId;
         private String status;
+        private Date createdAt;
 
         private VisitBuilder() {
         }
@@ -131,6 +144,11 @@ public class Visit {
             return this;
         }
 
+        public VisitBuilder createdAt(Date createdAt) {
+            this.createdAt = createdAt;
+            return this;
+        }
+
         public Visit build() {
             Visit visit = new Visit();
             visit.setId(id);
@@ -139,6 +157,9 @@ public class Visit {
             visit.setPetId(petId);
             if (status != null) {
                 visit.setStatus(status);
+            }
+            if (createdAt != null) {
+                visit.setCreatedAt(createdAt);
             }
             return visit;
         }

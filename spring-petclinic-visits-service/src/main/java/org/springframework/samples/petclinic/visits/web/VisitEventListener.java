@@ -27,9 +27,17 @@ public class VisitEventListener {
 
     @RabbitListener(queues = RabbitVisitConfig.VISIT_CREATED_QUEUE)
     public void handleVisitCreated(Map<String, Object> event) {
-        int petId = Integer.parseInt(event.get("petId").toString());
-        LocalDate visitDate = LocalDate.parse(event.get("visitDate").toString());
-        String description = event.get("description").toString();
+        Object petIdValue = event.get("petId");
+        Object visitDateValue = event.getOrDefault("visitDate", event.get("date"));
+        Object descriptionValue = event.get("description");
+
+        if (petIdValue == null || visitDateValue == null || descriptionValue == null) {
+            return;
+        }
+
+        int petId = Integer.parseInt(petIdValue.toString());
+        LocalDate visitDate = LocalDate.parse(visitDateValue.toString());
+        String description = descriptionValue.toString();
 
         Visit visit = new Visit();
         visit.setPetId(petId);
