@@ -1,0 +1,10 @@
+Experiment 4 Saga Data Integrity Check
+Run timestamp: 2026-03-28 22:44 ADT
+Window: last 10 minutes
+
+Counts by status:
+ACTIVE=49
+CANCELLED=56
+TOTAL=105
+
+Conclusion: Saga compensation is working because the final data contains both ACTIVE visits and compensated CANCELLED visits after the 100-request correctness run.

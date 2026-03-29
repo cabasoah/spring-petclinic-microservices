@@ -12,12 +12,12 @@
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="MainUserLoad">
         <intProp name="ThreadGroup.num_threads">100</intProp>
         <intProp name="ThreadGroup.ramp_time">30</intProp>
-        <longProp name="ThreadGroup.duration">120</longProp>
+        <longProp name="ThreadGroup.duration">0</longProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
-          <stringProp name="LoopController.loops">10000</stringProp>
+          <stringProp name="LoopController.loops">1</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
         </elementProp>
       </ThreadGroup>
@@ -82,7 +82,7 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&quot;date&quot;:&quot;2026-03-28&quot;,&quot;description&quot;:&quot;JMeter saga visit&quot;}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
