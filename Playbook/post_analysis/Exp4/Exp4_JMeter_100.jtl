@@ -1,0 +1,401 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1774748563378,455,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-1,text,true,,781,161,2,2,http://localhost:8080/api/vet/vets,449,0,22
+1774748563590,244,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-2,text,true,,781,161,2,2,http://localhost:8080/api/vet/vets,238,0,0
+1774748563888,51,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-3,text,true,,781,161,3,3,http://localhost:8080/api/vet/vets,50,0,1
+1774748564186,16,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-4,text,true,,781,161,4,4,http://localhost:8080/api/vet/vets,15,0,1
+1774748563837,456,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-1,text,true,,367,169,4,4,http://localhost:8080/api/gateway/owners/1,456,0,0
+1774748563940,353,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-3,text,true,,367,169,4,4,http://localhost:8080/api/gateway/owners/1,353,0,0
+1774748564202,91,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-4,text,true,,367,169,4,4,http://localhost:8080/api/gateway/owners/1,91,0,0
+1774748563837,463,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-2,text,true,,367,169,4,4,http://localhost:8080/api/gateway/owners/1,463,0,0
+1774748564294,12,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-3,,true,,44,257,4,4,http://localhost:8080/api/visit/owners/1/pets/1/visits,12,0,0
+1774748564294,14,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-4,,true,,44,257,4,4,http://localhost:8080/api/visit/owners/1/pets/1/visits,14,0,0
+1774748564301,7,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-2,,true,,44,257,4,4,http://localhost:8080/api/visit/owners/1/pets/1/visits,7,0,0
+1774748564294,15,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-1,,true,,44,257,4,4,http://localhost:8080/api/visit/owners/1/pets/1/visits,15,0,0
+1774748564308,32,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-2,text,true,,513,169,4,4,http://localhost:8080/api/gateway/owners/1,32,0,0
+1774748564309,31,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-1,text,true,,513,169,4,4,http://localhost:8080/api/gateway/owners/1,31,0,0
+1774748564308,37,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-4,text,true,,659,169,2,2,http://localhost:8080/api/gateway/owners/1,36,0,0
+1774748564307,38,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-3,text,true,,659,169,2,2,http://localhost:8080/api/gateway/owners/1,38,0,0
+1774748564485,17,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-5,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,16,0,1
+1774748564503,30,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-5,text,true,,659,169,1,1,http://localhost:8080/api/gateway/owners/1,30,0,0
+1774748564534,8,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-5,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,8,0,0
+1774748564542,33,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-5,text,true,,733,169,1,1,http://localhost:8080/api/gateway/owners/1,33,0,0
+1774748564785,13,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-6,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,13,0,1
+1774748564799,29,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-6,text,true,,733,169,1,1,http://localhost:8080/api/gateway/owners/1,29,0,0
+1774748564828,9,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-6,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,9,0,0
+1774748564837,33,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-6,text,true,,807,169,1,1,http://localhost:8080/api/gateway/owners/1,33,0,0
+1774748565086,18,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-7,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,17,0,1
+1774748565104,31,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-7,text,true,,807,169,1,1,http://localhost:8080/api/gateway/owners/1,31,0,0
+1774748565136,9,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-7,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,9,0,0
+1774748565146,30,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-7,text,true,,881,169,1,1,http://localhost:8080/api/gateway/owners/1,30,0,0
+1774748565386,12,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-8,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,1
+1774748565399,25,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-8,text,true,,881,169,1,1,http://localhost:8080/api/gateway/owners/1,25,0,0
+1774748565424,8,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-8,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,8,0,0
+1774748565432,25,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-8,text,true,,955,169,1,1,http://localhost:8080/api/gateway/owners/1,25,0,0
+1774748565684,14,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-9,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,14,0,1
+1774748565699,27,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-9,text,true,,955,169,1,1,http://localhost:8080/api/gateway/owners/1,27,0,0
+1774748565727,7,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-9,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,7,0,0
+1774748565735,26,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-9,text,true,,1029,169,1,1,http://localhost:8080/api/gateway/owners/1,26,0,0
+1774748565984,13,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-10,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,12,0,1
+1774748565997,21,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-10,text,true,,1029,169,1,1,http://localhost:8080/api/gateway/owners/1,21,0,0
+1774748566019,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-10,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748566025,24,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-10,text,true,,1104,169,1,1,http://localhost:8080/api/gateway/owners/1,24,0,0
+1774748566285,12,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-11,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,1
+1774748566297,20,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-11,text,true,,1104,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748566317,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-11,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748566324,32,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-11,text,true,,1178,169,1,1,http://localhost:8080/api/gateway/owners/1,31,0,0
+1774748566599,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-12,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,1
+1774748566611,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-12,text,true,,1178,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748566630,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-12,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748566637,20,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-12,text,true,,1252,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748566883,12,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-13,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,12,0,1
+1774748566896,24,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-13,text,true,,1252,169,1,1,http://localhost:8080/api/gateway/owners/1,23,0,0
+1774748566920,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-13,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748566927,22,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-13,text,true,,1326,169,1,1,http://localhost:8080/api/gateway/owners/1,22,0,0
+1774748567187,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-14,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748567198,24,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-14,text,true,,1326,169,1,1,http://localhost:8080/api/gateway/owners/1,24,0,0
+1774748567222,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-14,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748567228,24,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-14,text,true,,1400,169,1,1,http://localhost:8080/api/gateway/owners/1,24,0,0
+1774748567484,12,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-15,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,1
+1774748567496,20,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-15,text,true,,1400,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748567516,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-15,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748567522,23,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-15,text,true,,1474,169,1,1,http://localhost:8080/api/gateway/owners/1,23,0,0
+1774748567784,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-16,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748567794,23,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-16,text,true,,1474,169,1,1,http://localhost:8080/api/gateway/owners/1,23,0,0
+1774748567817,7,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-16,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,7,0,0
+1774748567825,24,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-16,text,true,,1548,169,1,1,http://localhost:8080/api/gateway/owners/1,24,0,0
+1774748568083,12,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-17,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,1
+1774748568095,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-17,text,true,,1548,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748568114,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-17,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748568119,21,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-17,text,true,,1622,169,1,1,http://localhost:8080/api/gateway/owners/1,21,0,0
+1774748568382,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-18,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748568393,21,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-18,text,true,,1622,169,1,1,http://localhost:8080/api/gateway/owners/1,21,0,0
+1774748568415,7,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-18,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,7,0,0
+1774748568422,22,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-18,text,true,,1696,169,1,1,http://localhost:8080/api/gateway/owners/1,22,0,0
+1774748568683,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-19,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,0
+1774748568693,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-19,text,true,,1696,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748568713,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-19,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748568718,19,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-19,text,true,,1770,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748568983,12,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-20,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,12,0,1
+1774748568996,20,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-20,text,true,,1770,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748569017,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-20,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748569024,21,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-20,text,true,,1844,169,1,1,http://localhost:8080/api/gateway/owners/1,21,0,0
+1774748569282,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-21,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748569293,20,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-21,text,true,,1844,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748569313,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-21,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748569320,20,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-21,text,true,,1918,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748569584,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-22,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748569595,17,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-22,text,true,,1918,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748569612,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-22,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748569618,19,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-22,text,true,,1992,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748569886,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-23,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,9,0,0
+1774748569897,17,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-23,text,true,,1992,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748569915,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-23,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748569920,20,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-23,text,true,,2066,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748570184,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-24,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748570195,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-24,text,true,,2066,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748570211,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-24,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748570216,19,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-24,text,true,,2140,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748570484,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-25,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1774748570493,18,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-25,text,true,,2140,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748570512,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-25,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748570517,22,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-25,text,true,,2214,169,1,1,http://localhost:8080/api/gateway/owners/1,22,0,0
+1774748570782,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-26,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,1
+1774748570794,18,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-26,text,true,,2214,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748570812,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-26,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748570818,27,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-26,text,true,,2288,169,1,1,http://localhost:8080/api/gateway/owners/1,27,0,0
+1774748571083,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-27,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748571092,18,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-27,text,true,,2288,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748571111,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-27,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748571117,19,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-27,text,true,,2362,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748571384,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-28,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,0
+1774748571393,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-28,text,true,,2362,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748571412,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-28,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748571418,21,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-28,text,true,,2436,169,1,1,http://localhost:8080/api/gateway/owners/1,21,0,0
+1774748571683,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-29,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1774748571692,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-29,text,true,,2436,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748571709,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-29,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748571713,18,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-29,text,true,,2510,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748571984,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-30,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1774748571992,17,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-30,text,true,,2510,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748572009,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-30,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748572014,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-30,text,true,,2584,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748572284,12,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-31,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,12,0,0
+1774748572296,22,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-31,text,true,,2584,169,1,1,http://localhost:8080/api/gateway/owners/1,22,0,0
+1774748572318,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-31,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748572324,22,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-31,text,true,,2658,169,1,1,http://localhost:8080/api/gateway/owners/1,22,0,0
+1774748572582,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-32,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748572592,20,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-32,text,true,,2658,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748572613,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-32,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748572619,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-32,text,true,,2732,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748572884,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-33,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748572894,15,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-33,text,true,,2732,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748572910,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-33,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748572914,17,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-33,text,true,,2806,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748573183,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-34,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748573192,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-34,text,true,,2806,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748573209,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-34,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748573213,18,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-34,text,true,,2880,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748573484,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-35,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,0
+1774748573494,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-35,text,true,,2880,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748573513,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-35,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748573518,19,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-35,text,true,,2954,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748573783,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-36,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,7,0,1
+1774748573791,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-36,text,true,,2954,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748573807,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-36,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748573812,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-36,text,true,,3028,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748574084,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-37,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1774748574093,15,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-37,text,true,,3028,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748574108,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-37,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748574114,18,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-37,text,true,,3102,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748574383,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-38,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748574392,14,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-38,text,true,,3102,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748574407,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-38,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748574411,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-38,text,true,,3176,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748574683,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-39,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748574693,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-39,text,true,,3176,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748574712,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-39,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748574717,17,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-39,text,true,,3250,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748574985,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-40,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1774748574994,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-40,text,true,,3250,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748575010,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-40,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748575016,19,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-40,text,true,,3324,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748575285,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-41,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1774748575293,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-41,text,true,,3324,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748575309,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-41,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748575314,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-41,text,true,,3398,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748575586,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-42,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1774748575594,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-42,text,true,,3398,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748575614,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-42,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748575620,25,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-42,text,true,,3472,169,1,1,http://localhost:8080/api/gateway/owners/1,25,0,0
+1774748575883,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-43,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,0
+1774748575892,17,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-43,text,true,,3472,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748575910,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-43,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748575916,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-43,text,true,,3546,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748576183,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-44,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748576192,15,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-44,text,true,,3546,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748576208,3,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-44,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,3,0,0
+1774748576212,15,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-44,text,true,,3620,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748576484,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-45,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748576493,14,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-45,text,true,,3620,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748576508,3,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-45,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,3,0,0
+1774748576512,14,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-45,text,true,,3694,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748576784,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-46,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748576793,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-46,text,true,,3694,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748576810,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-46,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748576814,17,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-46,text,true,,3768,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748577084,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-47,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1774748577092,14,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-47,text,true,,3768,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748577107,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-47,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748577112,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-47,text,true,,3842,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748577384,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-48,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748577393,15,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-48,text,true,,3842,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748577408,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-48,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748577413,14,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-48,text,true,,3916,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748577684,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-49,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,9,0,0
+1774748577695,23,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-49,text,true,,3916,169,1,1,http://localhost:8080/api/gateway/owners/1,23,0,0
+1774748577719,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-49,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748577725,33,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-49,text,true,,3990,169,1,1,http://localhost:8080/api/gateway/owners/1,33,0,0
+1774748577984,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-50,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748577995,23,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-50,text,true,,3990,169,1,1,http://localhost:8080/api/gateway/owners/1,23,0,0
+1774748578019,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-50,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748578025,21,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-50,text,true,,4064,169,1,1,http://localhost:8080/api/gateway/owners/1,21,0,0
+1774748578284,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-51,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,1
+1774748578296,22,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-51,text,true,,4064,169,1,1,http://localhost:8080/api/gateway/owners/1,22,0,0
+1774748578319,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-51,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748578325,28,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-51,text,true,,4138,169,1,1,http://localhost:8080/api/gateway/owners/1,28,0,0
+1774748578584,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-52,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,1
+1774748578596,23,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-52,text,true,,4138,169,1,1,http://localhost:8080/api/gateway/owners/1,23,0,0
+1774748578619,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-52,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748578625,20,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-52,text,true,,4212,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748578884,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-53,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,0
+1774748578894,25,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-53,text,true,,4212,169,1,1,http://localhost:8080/api/gateway/owners/1,25,0,0
+1774748578919,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-53,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748578925,19,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-53,text,true,,4286,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748579184,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-54,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748579194,15,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-54,text,true,,4286,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748579209,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-54,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748579213,15,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-54,text,true,,4360,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748579485,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-55,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748579495,17,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-55,text,true,,4360,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748579512,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-55,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748579517,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-55,text,true,,4434,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748579784,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-56,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748579795,23,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-56,text,true,,4434,169,1,1,http://localhost:8080/api/gateway/owners/1,23,0,0
+1774748579819,9,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-56,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,9,0,0
+1774748579828,31,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-56,text,true,,4508,169,1,1,http://localhost:8080/api/gateway/owners/1,31,0,0
+1774748580084,14,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-57,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,14,0,1
+1774748580101,30,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-57,text,true,,4508,169,1,1,http://localhost:8080/api/gateway/owners/1,30,0,0
+1774748580132,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-57,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748580138,26,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-57,text,true,,4582,169,1,1,http://localhost:8080/api/gateway/owners/1,26,0,0
+1774748580384,18,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-58,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,17,0,1
+1774748580402,33,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-58,text,true,,4582,169,1,1,http://localhost:8080/api/gateway/owners/1,33,0,0
+1774748580435,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-58,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748580441,20,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-58,text,true,,4656,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748580683,13,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-59,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,13,0,0
+1774748580697,23,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-59,text,true,,4656,169,1,1,http://localhost:8080/api/gateway/owners/1,23,0,0
+1774748580720,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-59,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748580725,14,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-59,text,true,,4730,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748580983,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-60,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748580993,18,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-60,text,true,,4730,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748581011,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-60,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748581016,32,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-60,text,true,,4804,169,1,1,http://localhost:8080/api/gateway/owners/1,32,0,0
+1774748581284,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-61,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,1
+1774748581296,23,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-61,text,true,,4804,169,1,1,http://localhost:8080/api/gateway/owners/1,23,0,0
+1774748581320,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-61,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748581327,25,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-61,text,true,,4878,169,1,1,http://localhost:8080/api/gateway/owners/1,25,0,0
+1774748581584,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-62,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748581594,21,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-62,text,true,,4878,169,1,1,http://localhost:8080/api/gateway/owners/1,21,0,0
+1774748581615,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-62,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748581621,23,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-62,text,true,,4952,169,1,1,http://localhost:8080/api/gateway/owners/1,23,0,0
+1774748581883,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-63,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748581894,21,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-63,text,true,,4952,169,1,1,http://localhost:8080/api/gateway/owners/1,21,0,0
+1774748581916,7,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-63,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,7,0,0
+1774748581923,20,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-63,text,true,,5026,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748582185,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-64,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748582195,21,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-64,text,true,,5026,169,1,1,http://localhost:8080/api/gateway/owners/1,21,0,0
+1774748582216,18,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-64,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,18,0,0
+1774748582234,22,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-64,text,true,,5100,169,1,1,http://localhost:8080/api/gateway/owners/1,22,0,0
+1774748582485,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-65,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,7,0,1
+1774748582493,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-65,text,true,,5100,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748582512,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-65,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748582518,19,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-65,text,true,,5174,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748582784,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-66,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748582794,17,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-66,text,true,,5174,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748582811,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-66,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748582816,17,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-66,text,true,,5248,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748583085,33,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-67,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,33,0,1
+1774748583119,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-67,text,true,,5248,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748583138,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-67,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748583143,20,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-67,text,true,,5322,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748583392,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-68,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748583401,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-68,text,true,,5322,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748583417,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-68,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748583421,17,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-68,text,true,,5396,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748583688,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-69,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,7,0,0
+1774748583696,15,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-69,text,true,,5396,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748583712,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-69,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748583716,18,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-69,text,true,,5470,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748583984,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-70,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748583993,14,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-70,text,true,,5470,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748584008,3,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-70,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,3,0,0
+1774748584012,15,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-70,text,true,,5544,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748584295,7,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-71,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,7,0,1
+1774748584303,13,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-71,text,true,,5544,169,1,1,http://localhost:8080/api/gateway/owners/1,13,0,0
+1774748584316,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-71,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748584321,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-71,text,true,,5618,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748584592,7,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-72,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,7,0,0
+1774748584600,14,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-72,text,true,,5618,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748584614,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-72,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748584619,15,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-72,text,true,,5692,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748584888,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-73,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,2
+1774748584899,20,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-73,text,true,,5692,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748584919,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-73,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748584925,20,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-73,text,true,,5766,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748585197,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-74,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748585205,21,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-74,text,true,,5766,169,1,1,http://localhost:8080/api/gateway/owners/1,21,0,0
+1774748585226,7,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-74,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,7,0,0
+1774748585234,17,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-74,text,true,,5840,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748585493,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-75,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748585504,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-75,text,true,,5840,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748585524,9,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-75,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,9,0,0
+1774748585534,25,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-75,text,true,,5914,169,1,1,http://localhost:8080/api/gateway/owners/1,25,0,0
+1774748585788,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-76,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748585798,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-76,text,true,,5914,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748585815,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-76,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748585820,18,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-76,text,true,,5988,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748586097,12,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-77,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,2
+1774748586109,27,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-77,text,true,,5988,169,1,1,http://localhost:8080/api/gateway/owners/1,27,0,0
+1774748586137,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-77,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748586143,24,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-77,text,true,,6062,169,1,1,http://localhost:8080/api/gateway/owners/1,24,0,0
+1774748586391,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-78,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748586402,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-78,text,true,,6062,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748586418,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-78,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748586423,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-78,text,true,,6136,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748586685,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-79,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,9,0,0
+1774748586694,18,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-79,text,true,,6136,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748586713,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-79,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748586719,18,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-79,text,true,,6210,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748586996,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-80,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748587004,15,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-80,text,true,,6210,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748587020,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-80,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748587024,18,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-80,text,true,,6284,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748587290,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-81,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748587299,15,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-81,text,true,,6284,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748587314,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-81,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748587319,14,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-81,text,true,,6358,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748587585,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-82,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,7,0,1
+1774748587593,13,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-82,text,true,,6358,169,1,1,http://localhost:8080/api/gateway/owners/1,13,0,0
+1774748587606,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-82,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748587610,18,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-82,text,true,,6432,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748587895,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-83,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,11,0,2
+1774748587907,19,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-83,text,true,,6432,169,1,1,http://localhost:8080/api/gateway/owners/1,19,0,0
+1774748587926,6,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-83,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,6,0,0
+1774748587932,20,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-83,text,true,,6506,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748588189,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-84,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,9,0,1
+1774748588198,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-84,text,true,,6506,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748588214,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-84,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748588218,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-84,text,true,,6580,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748588498,7,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-85,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,7,0,1
+1774748588506,13,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-85,text,true,,6580,169,1,1,http://localhost:8080/api/gateway/owners/1,13,0,0
+1774748588520,3,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-85,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,3,0,0
+1774748588524,13,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-85,text,true,,6654,169,1,1,http://localhost:8080/api/gateway/owners/1,13,0,0
+1774748588793,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-86,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748588804,20,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-86,text,true,,6654,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748588825,9,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-86,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,9,0,0
+1774748588835,22,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-86,text,true,,6728,169,1,1,http://localhost:8080/api/gateway/owners/1,22,0,0
+1774748589088,7,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-87,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,7,0,1
+1774748589096,14,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-87,text,true,,6728,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748589110,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-87,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748589114,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-87,text,true,,6802,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748589383,7,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-88,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,7,0,1
+1774748589391,15,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-88,text,true,,6802,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748589407,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-88,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748589412,18,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-88,text,true,,6876,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748589691,7,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-89,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,7,0,1
+1774748589699,13,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-89,text,true,,6876,169,1,1,http://localhost:8080/api/gateway/owners/1,13,0,0
+1774748589713,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-89,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748589717,15,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-89,text,true,,6950,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748589986,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-90,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748589994,13,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-90,text,true,,6950,169,1,1,http://localhost:8080/api/gateway/owners/1,13,0,0
+1774748590008,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-90,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748590013,18,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-90,text,true,,7024,169,1,1,http://localhost:8080/api/gateway/owners/1,18,0,0
+1774748590297,7,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-91,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,7,0,1
+1774748590305,12,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-91,text,true,,7024,169,1,1,http://localhost:8080/api/gateway/owners/1,12,0,0
+1774748590318,3,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-91,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,3,0,0
+1774748590321,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-91,text,true,,7098,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748590591,7,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-92,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,7,0,1
+1774748590599,20,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-92,text,true,,7098,169,1,1,http://localhost:8080/api/gateway/owners/1,20,0,0
+1774748590619,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-92,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748590624,17,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-92,text,true,,7172,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748590885,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-93,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748590894,14,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-93,text,true,,7172,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748590908,3,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-93,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,3,0,0
+1774748590912,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-93,text,true,,7246,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748591196,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-94,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1774748591205,14,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-94,text,true,,7246,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748591219,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-94,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748591224,14,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-94,text,true,,7320,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748591493,11,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-95,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748591504,16,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-95,text,true,,7320,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748591520,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-95,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748591525,17,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-95,text,true,,7395,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748591799,8,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-96,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1774748591807,17,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-96,text,true,,7395,169,1,1,http://localhost:8080/api/gateway/owners/1,17,0,0
+1774748591824,5,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-96,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,5,0,0
+1774748591830,16,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-96,text,true,,7470,169,1,1,http://localhost:8080/api/gateway/owners/1,16,0,0
+1774748592096,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-97,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,0
+1774748592107,15,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-97,text,true,,7470,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748592122,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-97,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748592126,29,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-97,text,true,,7545,169,1,1,http://localhost:8080/api/gateway/owners/1,29,0,0
+1774748592392,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-98,text,true,,788,161,1,1,http://localhost:8080/api/vet/vets,9,0,0
+1774748592402,13,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-98,text,true,,7545,169,1,1,http://localhost:8080/api/gateway/owners/1,13,0,0
+1774748592416,3,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-98,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,3,0,0
+1774748592419,22,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-98,text,true,,7620,169,1,1,http://localhost:8080/api/gateway/owners/1,22,0,0
+1774748592700,10,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-99,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,10,0,1
+1774748592710,14,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-99,text,true,,7620,169,1,1,http://localhost:8080/api/gateway/owners/1,14,0,0
+1774748592724,4,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-99,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,4,0,0
+1774748592728,15,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-99,text,true,,7695,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0
+1774748592995,9,01 - HTTP GET Request: Veterinarians Page,200,OK,MainUserLoad 1-100,text,true,,781,161,1,1,http://localhost:8080/api/vet/vets,8,0,1
+1774748593004,12,02 - HTTP GET Request: Search Single Owner,200,OK,MainUserLoad 1-100,text,true,,7695,169,1,1,http://localhost:8080/api/gateway/owners/1,12,0,0
+1774748593017,3,03 - HTTP POST Request: Visits,202,Accepted,MainUserLoad 1-100,,true,,44,257,1,1,http://localhost:8080/api/visit/owners/1/pets/1/visits,3,0,0
+1774748593021,15,04: HTTP  GET Request: Owners,200,OK,MainUserLoad 1-100,text,true,,7770,169,1,1,http://localhost:8080/api/gateway/owners/1,15,0,0

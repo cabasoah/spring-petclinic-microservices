@@ -1,0 +1,9 @@
+{
+    "github.copilot.chat.terminalAccess.enabled": true,
+    "github.copilot.chat.terminalAccess.runCommand": true,
+    "github.copilot.chat.terminalAccess.autoApprove": true,
+    "chat.agent.enabled": true,
+    "chat.tools.terminal.enabled": true,
+    "chat.agent.maxRequests": 200
+
+}

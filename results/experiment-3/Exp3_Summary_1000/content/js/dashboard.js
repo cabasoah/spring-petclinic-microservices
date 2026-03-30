@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 75.0570008926555, "KoPercent": 24.942999107344512};
+    var data = {"OkPercent": 100.0, "KoPercent": 0.0};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.6929211344253127, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.9512462235649547, 500, 1500, "04: HTTP  GET Request: Owners"], "isController": false}, {"data": [0.909987365896486, 500, 1500, "01 - HTTP GET Request: Veterinarians Page"], "isController": false}, {"data": [0.908511232635345, 500, 1500, "02 - HTTP GET Request: Search Single Owner"], "isController": false}, {"data": [0.0, 500, 1500, "03 - HTTP POST Request: Visits"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.8764821228947899, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.8730156392660442, 500, 1500, "04: HTTP  GET Request: Owners"], "isController": false}, {"data": [0.8267305814986959, 500, 1500, "01 - HTTP GET Request: Veterinarians Page"], "isController": false}, {"data": [0.8149661059135298, 500, 1500, "02 - HTTP GET Request: Search Single Owner"], "isController": false}, {"data": [0.9919552908302081, 500, 1500, "03 - HTTP POST Request: Visits"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 371924, 92769, 24.942999107344512, 283.28152525784606, 1, 11237, 331.0, 576.0, 638.0, 786.9900000000016, 3088.4284824579613, 1233.894613153934, 479.3588138364127], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["04: HTTP  GET Request: Owners", 92680, 0, 0.0, 292.032768666379, 7, 9905, 348.0, 555.0, 619.0, 773.9900000000016, 770.2664516879706, 226.18875516063147, 103.05322644653513], "isController": false}, {"data": ["01 - HTTP GET Request: Veterinarians Page", 93398, 0, 0.0, 360.2708623311031, 4, 11237, 406.0, 631.0, 698.0, 919.950000000008, 775.5762970836379, 591.5422570718877, 97.70443586307546], "isController": false}, {"data": ["02 - HTTP GET Request: Search Single Owner", 93077, 0, 0.0, 350.981810758831, 5, 10425, 412.0, 631.9000000000015, 698.0, 908.0, 773.3217015619807, 227.11086304887422, 103.46198546288218], "isController": false}, {"data": ["03 - HTTP POST Request: Visits", 92769, 92769, 100.0, 129.10227554463182, 1, 10446, 118.0, 268.0, 311.0, 421.9900000000016, 771.0830354916466, 189.55470990306293, 175.4515110054235], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 272835, 0, 0.0, 386.36980226143515, 1, 25428, 480.0, 817.0, 923.0, 1113.9900000000016, 2263.3644146535703, 789.5365958825201, 427.86773041638327], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["04: HTTP  GET Request: Owners", 67906, 0, 0.0, 381.5301004329494, 4, 21116, 433.0, 747.0, 837.0, 1153.9900000000016, 564.3923967519137, 165.34933498591224, 93.1467920420639], "isController": false}, {"data": ["01 - HTTP GET Request: Veterinarians Page", 68633, 0, 0.0, 489.05211778590586, 4, 25428, 495.0, 818.0, 938.0, 2295.900000000016, 569.360565436687, 434.2633787377431, 130.6638016383022], "isController": false}, {"data": ["02 - HTTP GET Request: Search Single Owner", 68301, 0, 0.0, 482.93833179601353, 4, 21301, 525.0, 861.0, 978.9500000000007, 7237.040000000154, 566.992080490113, 166.1109610810878, 93.5758414090128], "isController": false}, {"data": ["03 - HTTP POST Request: Visits", 67995, 0, 0.0, 190.55426134274674, 1, 21244, 143.0, 341.0, 406.0, 4817.56000000007, 565.3106527323972, 24.29069210959519, 110.96429804610531], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["415/Unsupported Media Type", 92769, 100.0, 24.942999107344512], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": []}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 371924, 92769, "415/Unsupported Media Type", 92769, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": ["03 - HTTP POST Request: Visits", 92769, 92769, "415/Unsupported Media Type", 92769, "", "", "", "", "", "", "", ""], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 272835, 0, "", "", "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
