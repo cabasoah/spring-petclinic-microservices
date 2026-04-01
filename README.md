@@ -43,12 +43,12 @@ docker-compose ps
 
 ## Experiments Overview
 
-| # | Experiment | Pattern | Branch Origin |
-|---|-----------|---------|---------------|
-| 1 | Baseline Scalability | Load testing (100/500/1000 users) | `main-control` |
-| 2 | Chaos Resilience | Circuit Breaker + Chaos Monkey | `main-control` |
-| 3 | EDA Micro-Refactor | Event-Driven Architecture via RabbitMQ | `exp-3-eda` |
-| 4 | Saga Data Consistency | Saga pattern with compensation | `exp-4-saga` |
+| # | Experiment | Pattern |
+|---|-----------|--------|
+| 1 | Baseline Scalability | Load testing (100/500/1000 users) |
+| 2 | Chaos Resilience | Circuit Breaker + Chaos Monkey |
+| 3 | EDA Micro-Refactor | Event-Driven Architecture via RabbitMQ |
+| 4 | Saga Data Consistency | Saga pattern with compensation |
 
 Each experiment has its own JMeter test plan in the `jmeter/` directory.
 
@@ -66,7 +66,7 @@ jmeter -n -t jmeter/exp1_exp2_baseline_chaos.jmx \
   -l results/experiment-1/run.jtl
 ```
 
-**Results**: `results/experiment-1/` — JTL files and per-load-level summary CSVs.
+**Results**: `FINAL_RESULTS/Exp1/` — summary CSVs and screenshots. Raw JTL files in `results/experiment-1/`.
 
 ---
 
@@ -105,7 +105,7 @@ resilience4j.circuitbreaker.instances.visits:
   waitDurationInOpenState: 10s
 ```
 
-**Results**: `results/experiment-2/` — Chaos summary CSV, circuit breaker state log.
+**Results**: `FINAL_RESULTS/Exp2/` — chaos summary CSV, circuit breaker state log, screenshots. Raw JTL in `results/experiment-2/`.
 
 ---
 
@@ -126,7 +126,7 @@ jmeter -n -t jmeter/exp3_eda_refactor.jmx \
   -l results/experiment-3/run.jtl
 ```
 
-**Results**: `results/experiment-3/Exp3_EDA_vs_Baseline.csv`
+**Results**: `FINAL_RESULTS/Exp3/Exp3_EDA_vs_Baseline.csv`
 
 | Users | Baseline p99 | EDA p99 | Improvement |
 |-------|-------------|---------|-------------|
@@ -155,7 +155,7 @@ jmeter -n -t jmeter/exp4_saga_validation.jmx \
 curl http://localhost:8082/visits/integrity?minutes=10
 ```
 
-**Results**: `results/experiment-4/Exp4_Saga_Data_Integrity.txt`
+**Results**: `FINAL_RESULTS/Exp4/Exp4_Saga_Data_Integrity.txt`
 ```
 ACTIVE=49, CANCELLED=56, TOTAL=105
 → Saga compensation confirmed working
@@ -173,35 +173,22 @@ jmeter/
   petclinic_full_scenario.jmx     # Default (Exp 4 version)
 
 results/
-  experiment-1/                   # Baseline scalability results
-  experiment-2/                   # Chaos resilience results
-  experiment-3/                   # EDA comparison results
-  experiment-4/                   # Saga validation results
+  experiment-1/                   # Exp 1 raw JTL files
+  experiment-2/                   # Exp 2 raw JTL files
+  experiment-3/                   # Exp 3 raw JTL files
+  experiment-4/                   # Exp 4 raw JTL files
+
+FINAL_RESULTS/
+  Exp1/                           # Exp 1 summary CSVs, Grafana screenshots, JMX
+  Exp2/                           # Exp 2 chaos CSV, circuit breaker log, screenshots, JMX
+  Exp3/                           # Exp 3 EDA comparison CSV, RabbitMQ screenshots, JMX
+  Exp4/                           # Exp 4 saga integrity report, screenshots, JMX
 
 screenshots/                      # Grafana, RabbitMQ, JMeter screenshots
-
-Playbook/
-  CS6075_COMMON_Setup.md          # Common setup instructions
-  Experiment_1_*.md               # Per-experiment playbooks
-  Experiment_2_*.md
-  Experiment_3_*.md
-  Experiment_4_*.md
-  MERGE_PLAN_TEMP_BRANCH.md       # Branch merge analysis
-  post_analysis/                  # Per-experiment configs, results, screenshots
-    Exp1/  Exp2/  Exp3/  Exp4/
-
 scripts/chaos/                    # Chaos Monkey attack/watcher configs
 mock-billing-service/             # Exp 4 saga billing mock service
 spring-petclinic-*/               # Microservice modules
 docker-compose.yml                # Full stack compose (all experiments)
 ```
 
-## Branches
-
-| Branch | Purpose | Status |
-|--------|---------|--------|
-| `main` | Upstream fork (no experiment work) | Untouched |
-| `main-control` | Experiments 1 & 2 | Preserved |
-| `exp-3-eda` | Experiment 3 (EDA) | Preserved |
-| `exp-4-saga` | Experiments 3 base + 4 (Saga) | Preserved |
-| `FINAL` | **Unified branch with all experiments** | Active |
+> All experiment work lives on the `FINAL` branch.
